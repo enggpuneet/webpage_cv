@@ -25,7 +25,14 @@
 </head>
 
 <body>
-
+        <div id="loader">
+        <div class="box-one"></div>
+        <div class="box-two"></div>
+        <div class="box-three"></div>
+        <div class="box-four"></div>
+    </div><!-- /.loader -->
+	
+	
     <nav class="menu">
         <ul class="menu-ul">
             <li> <a href="#about"> About </a> </li>
@@ -47,7 +54,7 @@
                 <h1> PS </h1> <!-- name first char -->
             </div>
             <h1 class="main-title"> Puneet Singh </h1><!-- /. name -->
-            <h4 class="tagline"> Neural +++ Robotics engineer </h4><!-- /. profession -->
+            <h4 class="tagline"> Neural + Robotics engineer </h4><!-- /. profession -->
         </div>
     </section> <!-- /. header/cover -->
 
@@ -1038,6 +1045,13 @@
     <script src="assets/js/validator.min.js" type="text/javascript"></script>
     <script src="assets/js/script.js" type="text/javascript"></script>
     <script src="assets/contact/contact.js"></script>
+	
+	    <!-- loader js -->
+     <script type="text/javascript">
+        $(window).load(function() {
+            $("#loader").delay(2000).fadeOut("slow");
+        });
+    </script>
 
 </body>
 
