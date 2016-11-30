@@ -98,7 +98,7 @@
 
     /* ---- Twitter, Change username ---- */
     $('.tweet').twittie({
-        username: '@puneet_iisc', // Change username
+        username: 'puneet_iisc',
         count: 1,
         dateFormat: '%d/%b/%y',
         template: '<strong class="date">{{date}}</strong> - {{tweet}} - {{screen_name}} ',
